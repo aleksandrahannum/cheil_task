@@ -1,0 +1,161 @@
+.header_section {
+    width: 100vh;
+    height: auto;
+   
+}
+
+.nav_bar {
+    padding-top: 3vh;
+    position: fixed;
+    z-index: 1;
+    line-height: 6vh
+    
+}
+.logo {
+    padding-left: 10vw;
+    
+}
+
+.nav_bar_logo {
+    padding-left: 15vw;
+}
+
+.nav_bar_logo img {
+    width: 7vw
+}
+.nav_list {
+    padding-left: 8vw;
+}
+
+
+.nav_list_item {
+    display: inline-block;
+    margin-right: 2vw;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    
+}
+
+
+.nav_list_item a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.nav_list_item a:hover {
+    color: #e74c3c;
+}
+
+.nav_list_items a:hover::before {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 2px;
+    top: 40px;
+    background-color: #e74c3c;
+    
+}
+
+.carousel-caption {
+    margin-top: -40px;
+    position: absolute;
+    top: 35vh;
+}
+.carousel_caption_heading {
+    font-family:'Source Sans Pro', sans-serif;
+}
+
+.carousel_caption_title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4vw;
+    font-weight: 600;
+}
+
+.carousel_caption_description {
+    width: 36vw;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.71rem;
+    font-weight: 100;
+    
+
+}
+
+
+.carousel-indicators li {
+    position: relative;
+    bottom: 10vh;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    background-color: rgba(255,255,255,.5);
+}
+
+.separator {
+    width: 5px;
+    height: 5px;
+    margin: 20px auto;
+    background: #e74c3c;
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.separator::after {
+    position: absolute;
+    content: "";
+    width: 5vw;
+    height: 1px;
+    background-color: white;
+    margin-left: 15px;
+    margin-top: 2px;
+}
+
+.separator::before {
+    position: absolute;
+    content: "";
+    width: 5vw;
+    height: 1px;
+    background-color: white;
+    margin-left: -80px;
+    margin-top: 2px;
+}
+
+.carousel-control-next-icon:hover,
+.carousel-control-prev-icon:hover {
+    border: 3px solid #e74c3c;
+    background-color: #e74c3c;
+}
+
+.btn-default {
+    width: 15vw;
+    height: 5vh;
+    margin-right: 1vw;
+    margin-top: 1vh;
+    color: white;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.btn-default-learn-more {
+    border: 1px solid white;
+    
+}
+
+.btn-default-get-started {
+    border: 1px solid #e74c3c;
+    background-color: #e74c3c;
+}
+
+.header_btn {
+    position: relative;
+    top: 8vh;
+}
