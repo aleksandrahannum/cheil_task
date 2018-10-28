@@ -1,7 +1,7 @@
 .header_section {
     width: 100vh;
     height: auto;
-   
+
 }
 
 .nav_bar {
@@ -9,11 +9,11 @@
     position: fixed;
     z-index: 1;
     line-height: 6vh
-    
 }
+
 .logo {
     padding-left: 10vw;
-    
+
 }
 
 .nav_bar_logo {
@@ -23,6 +23,7 @@
 .nav_bar_logo img {
     width: 7vw
 }
+
 .nav_list {
     padding-left: 8vw;
 }
@@ -34,7 +35,7 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 10px;
     font-weight: 600;
-    
+
 }
 
 
@@ -55,7 +56,7 @@
     height: 2px;
     top: 40px;
     background-color: #e74c3c;
-    
+
 }
 
 .carousel-caption {
@@ -63,8 +64,9 @@
     position: absolute;
     top: 35vh;
 }
+
 .carousel_caption_heading {
-    font-family:'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .carousel_caption_title {
@@ -80,7 +82,7 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 0.71rem;
     font-weight: 100;
-    
+
 
 }
 
@@ -94,7 +96,7 @@
     margin-right: 3px;
     margin-left: 3px;
     text-indent: -999px;
-    background-color: rgba(255,255,255,.5);
+    background-color: rgba(255, 255, 255, .5);
 }
 
 .separator {
@@ -142,12 +144,12 @@
     font-size: 1rem;
     line-height: 1rem;
     font-family: 'Open Sans', sans-serif;
-    
+
 }
 
 .btn-default-learn-more {
     border: 1px solid white;
-    
+
 }
 
 .btn-default-get-started {
@@ -159,3 +161,19 @@
     position: relative;
     top: 8vh;
 }
+
+#toggleButton {
+    position: relative;
+    left: 75vw;
+    top: 
+    display: none;
+    width: 10vh;
+    position: fixed;
+    padding-top: 0;
+
+}
+
+.mobile {
+    display: none;
+}
+
