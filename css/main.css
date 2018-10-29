@@ -1,5 +1,5 @@
 .header_section {
-    width: 100vh;
+    width: 100vw;
     height: auto;
 
 }
@@ -8,7 +8,7 @@
     padding-top: 3vh;
     position: fixed;
     z-index: 1;
-    line-height: 6vh
+    line-height: 6vh;
 }
 
 .logo {
@@ -24,8 +24,10 @@
     width: 7vw
 }
 
-.nav_list {
-    padding-left: 8vw;
+.nav_list_items {
+    position: relative;
+    float: right;
+
 }
 
 
@@ -152,9 +154,19 @@
 
 }
 
+.btn-default-learn-more:hover {
+    color: #e74c3c;
+    background-color: white;
+}
+
 .btn-default-get-started {
     border: 1px solid #e74c3c;
     background-color: #e74c3c;
+}
+
+.btn-default-get-started:hover {
+    background-color: white;
+    color: #e74c3c;
 }
 
 .header_btn {
@@ -165,8 +177,7 @@
 #toggleButton {
     position: relative;
     left: 75vw;
-    top: 
-    display: none;
+    top: display: none;
     width: 10vh;
     position: fixed;
     padding-top: 0;
@@ -185,16 +196,40 @@
 .clean_code_title,
 .sleek_design_title,
 .free_support_title,
-.creative_ideas_title{
-    margin-bottom: 5vh;
-    margin-top: 2vh
-    
+.creative_ideas_title {
+    margin-bottom: 0.5vh;
+    margin-top: 3vh
 }
 
 .column_separator {
-    width: 3vw;
-    height: 1px;
-    background-color: black;
-    
+    width: 55px;
+    height: 2px;
+    margin: 0 auto;
+    background: black;
+    position: relative;
+    display: inline-block;
+    border-radius: 10%;
+
 }
 
+.img_border {
+    border: solid 1px black;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.img_border:hover {
+    border: solid 1px #e74c3c;
+}
+
+.img_border img {
+    position: relative;
+    top: 30%
+}
+
+.scroll {
+    background-color: salmon;
+    width: 100%;
+    padding-right: 21vw;
+}
