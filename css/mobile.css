@@ -135,6 +135,13 @@
         position: relative;
         bottom: 4vh
     }
+    
+    .sleek_design_description,
+    .free_support_description,
+    .creative_ideas_description,
+    .clean_code_description {
+        width: 25vh;
+    }
 
 
 }
