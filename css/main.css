@@ -27,6 +27,7 @@
 .nav_list_items {
     position: relative;
     float: right;
+    left: 10vw
 
 }
 
@@ -241,7 +242,17 @@
 .scroll {
     background-color: salmon;
     width: 100%;
-    padding-right: 21vw;
+ 
+}
+
+.scroll .nav_list_items {
+    position: relative;
+    left: -4vw;
+
+}
+.scroll .nav_bar_logo {
+    padding-left: 40px;
+    
 }
 
 .sleek_design_description,
