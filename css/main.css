@@ -94,7 +94,7 @@
     height: 10px;
     border-radius: 50%;
     margin-right: 3px;
-    margin-left: 3px;
+    margin-left: 1vw;
     text-indent: -999px;
     background-color: rgba(255, 255, 255, .5);
 }
@@ -175,5 +175,26 @@
 
 .mobile {
     display: none;
+}
+
+.icon {
+    position: relative;
+    top: -6vh;
+}
+
+.clean_code_title,
+.sleek_design_title,
+.free_support_title,
+.creative_ideas_title{
+    margin-bottom: 5vh;
+    margin-top: 2vh
+    
+}
+
+.column_separator {
+    width: 3vw;
+    height: 1px;
+    background-color: black;
+    
 }
 
