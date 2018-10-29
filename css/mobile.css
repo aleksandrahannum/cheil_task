@@ -61,7 +61,9 @@
     .carousel_caption_heading {
         font-size: 1rem;
         width: 10rem;
-        margin: 0 auto
+        margin: 0 auto;
+        padding-left: 2vw;
+        padding-right: 2vw;
     }
     
     .carousel-indicators li {
@@ -89,7 +91,12 @@
         
     }
     .carousel_caption_description {
-        width: 70vw;
+        display: none;
+    }
+    
+    .carousel_caption_description_mobile {
+        display: block;
+        
     }
     
     .btn-default-learn-more {

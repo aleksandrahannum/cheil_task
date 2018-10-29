@@ -88,6 +88,10 @@
 
 }
 
+.carousel_caption_description_mobile {
+        display: none;
+        
+    }
 
 .carousel-indicators li {
     position: relative;
