@@ -221,6 +221,7 @@
 
 .img_border:hover {
     border: solid 1px #e74c3c;
+    background-color: #f9f6f4;
 }
 
 .img_border img {
