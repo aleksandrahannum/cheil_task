@@ -35,6 +35,7 @@
         min-height: 10vh;
         font-weight:300;
         height: 5vh;
+        border-bottom: 1px solid black;
        
         
     }
@@ -64,6 +65,7 @@
         margin: 0 auto;
         padding-left: 2vw;
         padding-right: 2vw;
+        font-weight: 100;
     }
     
     .carousel-indicators li {
@@ -133,10 +135,16 @@
     .column_item {
         margin-bottom: 5vh
     }
-    
-    .nav_bar.scroll {
-        width: 150vw;
+    .nav_bar.scroll .nav_list_items {
+        display:block;
+        float: left;
     }
+    
+    .nav_bar.scroll .nav_list_item {
+        margin: 0;
+        padding: 0;
+        border-bottom: 1px solid black;
+    } 
     
     .logo {
         position: relative;
