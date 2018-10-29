@@ -1,5 +1,5 @@
 .header_section {
-    width: 100vw;
+    width: 100%;
     height: auto;
 
 }
@@ -190,7 +190,8 @@
 
 .icon {
     position: relative;
-    top: -6vh;
+    margin: 0 auto;
+    bottom: 40px;
 }
 
 .clean_code_title,
@@ -217,11 +218,16 @@
     width: 80px;
     height: 80px;
     margin: 0 auto;
+    -webkit-transition: width 2s, height 2s, background-color 2s, 
+    -webkit-transform 2s;
+    transition: background-color 2s, transform 3s;
 }
 
 .img_border:hover {
     border: solid 1px #e74c3c;
     background-color: #f9f6f4;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
 }
 
 .img_border img {
@@ -234,3 +240,5 @@
     width: 100%;
     padding-right: 21vw;
 }
+
+
