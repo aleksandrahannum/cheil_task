@@ -6,7 +6,9 @@
 
     }
     
-    
+    .nav_bar {
+        padding-left: 0px;
+    }
 
     #toggleButton {
         display: block;
